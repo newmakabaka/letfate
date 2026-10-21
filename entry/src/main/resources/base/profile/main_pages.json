@@ -1,0 +1,8 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/WheelPage",
+    "pages/DrawPage",
+    "pages/CoinPage"
+  ]
+}

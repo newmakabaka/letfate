@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\73463\\.ohos\\config\\default_LetFate_hk9cnQluDNdIRNg9SZXOMV0rFQR5RejYZZsO0UGm6Fo=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001AD1DA906A8CE92ED52EC9389AF03E024EAB2CACA531DDD5C109A75DC7139C5F8E685F48FE1188",
+          "profile": "C:\\Users\\73463\\.ohos\\config\\default_LetFate_hk9cnQluDNdIRNg9SZXOMV0rFQR5RejYZZsO0UGm6Fo=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\73463\\.ohos\\config\\default_LetFate_hk9cnQluDNdIRNg9SZXOMV0rFQR5RejYZZsO0UGm6Fo=.p12",
+          "storePassword": "0000001A3F5E29E8AC90BE41843DC552376D36A1576F768BCCBC7397BCDF3FCBFAEB20B6D135A8DA5CC5"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "26.0.0",
+        "compatibleSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

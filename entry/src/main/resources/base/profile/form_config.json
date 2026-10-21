@@ -1,0 +1,26 @@
+{
+  "forms": [
+    {
+      "name": "DailySignCard",
+      "displayName": "$string:form_daily_sign_display",
+      "description": "$string:form_daily_sign_desc",
+      "src": "./ets/views/DailySignCard.ets",
+      "uiSyntax": "arkts",
+      "window": {
+        "designWidth": 720,
+        "autoDesignWidth": true
+      },
+      "renderingMode": "fullColor",
+      "isDefault": true,
+      "updateEnabled": true,
+      "scheduledUpdateTime": "00:10",
+      "multiScheduledUpdateTime": "00:10,08:10,13:10",
+      "updateDuration": 0,
+      "defaultDimension": "2*2",
+      "supportDimensions": [
+        "2*2"
+      ],
+      "isDynamic": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "color": [
+    { "name": "start_window_background", "value": "#F7F4EC" },
+    { "name": "page_bg", "value": "#F7F4EC" },
+    { "name": "card_bg", "value": "#FFFFFF" },
+    { "name": "chip_bg", "value": "#302D41" },
+    { "name": "input_bg", "value": "#F2EEE3" },
+    { "name": "text_primary", "value": "#2E2B40" },
+    { "name": "text_secondary", "value": "#6B6880" },
+    { "name": "brand_gold", "value": "#F5C866" },
+    { "name": "accent_orange", "value": "#F58A57" },
+    { "name": "accent_yellow", "value": "#F0F06A" },
+    { "name": "accent_red", "value": "#E86A5E" },
+    { "name": "accent_teal", "value": "#7FC8A9" },
+    { "name": "accent_purple", "value": "#A08CF0" },
+    { "name": "night_deep", "value": "#302D41" },
+    { "name": "sign_stick", "value": "#EFDFA8" },
+    { "name": "sign_stick_down", "value": "#302D41" },
+    { "name": "sign_tube_top", "value": "#454158" },
+    { "name": "coin_face", "value": "#F8DC96" },
+    { "name": "overlay_mask", "value": "#990F0D18" }
+  ]
+}
